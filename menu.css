@@ -1,0 +1,38 @@
+/*phần menu*/
+.menu
+	{
+		height: 40px;
+		background-color: #FFFFFF;
+		line-height: 60px; 
+
+	}
+	.menu li 
+	{   
+        background-position: bottom;
+        float: left;
+       text-align: center;
+       position: relative;
+	}
+	.menu ul 
+	{ 
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		position: relative;
+
+	}
+	.menu a 
+	{
+		padding: 20px;
+		/* display: block; */ /*khi chạm vào khối mình muốn chọn nó đã hiện màu, chứ kp chọn hẳn vào
+		 chữ đấy n mới hiện*/
+        line-height: 50px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #060606;     
+	}
+	.menu a:hover 
+	{
+		color:#FE37B5;
+	}	
+
