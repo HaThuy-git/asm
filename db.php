@@ -1,5 +1,7 @@
 <?php
-require_once './login.php';
+require_once 'index1.php'; ?>
+
+<?php
 
 $connection = pg_connect("host=ec2-107-20-155-148.compute-1.amazonaws.com port=5432 
     dbname=d4o35efmirk4nt user=zgyigwrhrgyskg 
